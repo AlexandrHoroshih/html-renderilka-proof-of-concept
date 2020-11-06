@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "nodemon",
     "build": "rimraf ./build && tsc",
-    "start:prod": "node ./build/index.js",
+    "start": "node build/index.js",
+    "start:prod": "yarn build && yarn start",
     "pretty": "prettier --write .",
     "commit": "git-cz",
     "lint:code": "eslint \"./**/*.{ts,tsx}\""
