@@ -55,6 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nodemon", "npm:2.0.6"],
             ["prettier", "npm:2.1.2"],
             ["rimraf", "npm:3.0.2"],
+            ["svelte", "npm:3.29.4"],
             ["ts-node", "virtual:5b2c0dbdf506d1af90205578fec4d5c6ddf46669647833780267dc9c05513c36a4a6473b9eb7149ba57b3d5a637713588c7203ab64878fb9b20178acbe48a142#npm:9.0.0"],
             ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5b02a2"]
           ],
@@ -6019,6 +6020,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["svelte", [
+        ["npm:3.29.4", {
+          "packageLocation": "./.yarn/cache/svelte-npm-3.29.4-818e1cdc45-2e15fd55a1.zip/node_modules/svelte/",
+          "packageDependencies": [
+            ["svelte", "npm:3.29.4"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["svelte-renderilka", [
         ["workspace:.", {
           "packageLocation": "./",
@@ -6042,6 +6052,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nodemon", "npm:2.0.6"],
             ["prettier", "npm:2.1.2"],
             ["rimraf", "npm:3.0.2"],
+            ["svelte", "npm:3.29.4"],
             ["ts-node", "virtual:5b2c0dbdf506d1af90205578fec4d5c6ddf46669647833780267dc9c05513c36a4a6473b9eb7149ba57b3d5a637713588c7203ab64878fb9b20178acbe48a142#npm:9.0.0"],
             ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5b02a2"]
           ],

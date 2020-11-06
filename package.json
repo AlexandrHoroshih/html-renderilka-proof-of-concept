@@ -55,5 +55,8 @@
       "pre-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "dependencies": {
+    "svelte": "^3.29.4"
   }
 }
