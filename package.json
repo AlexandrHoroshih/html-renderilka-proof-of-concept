@@ -1,5 +1,8 @@
 {
   "name": "svelte-renderilka",
+  "scripts": {
+    "dev": "nodemon"
+  },
   "devDependencies": {
     "@types/node": "^14.14.6",
     "nodemon": "^2.0.6",
