@@ -2,6 +2,8 @@
   "name": "svelte-renderilka",
   "scripts": {
     "dev": "nodemon",
+    "build": "rimraf ./build && tsc",
+    "start:prod": "node ./build/index.js",
     "pretty": "prettier --write .",
     "commit": "git-cz",
     "lint:code": "eslint \"./**/*.{ts,tsx}\""
@@ -24,6 +26,7 @@
     "lint-staged": "^10.5.1",
     "nodemon": "^2.0.6",
     "prettier": "^2.1.2",
+    "rimraf": "^3.0.2",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.5"
   },
