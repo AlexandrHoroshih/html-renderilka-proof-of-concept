@@ -1,5 +1,7 @@
 # svelte-renderilka
 
+Developed using Node.js 14.15.0 and yarn@berry (2.2.0) as package manager
+
 ### EXPERIMENTAL PROJECT
 
 Idea of this project was born from very specific situation - working with views in Sitecore CMS is a pain in the ass
