@@ -4,9 +4,8 @@
 
 Developed using Node.js 14.15.0 and yarn@berry (2.2.0) as package manager
 
-### EXPERIMENTAL PROJECT
-
-Idea of this project was born from very specific situation - working with views in Sitecore CMS is a pain in the ass
+Idea of this project was born from very specific situation - creating and working with view renderings in Sitecore CMS it is really painful.
+It feels like part of frontend app is taken hostage and bruttaly torturing.
 
 So idea is something like this:
 
@@ -14,3 +13,13 @@ Move html layout rendering to separate node.js app - which will have api endpoin
 accept data to put into the template and returns html string of hero-banner with e.g. specific title.
 And Sitecore CMS has support for accepting renderings from other sources via "Url Rendering"
 As a framework for components in this project i decided to go with Svelte - because it is an "disappearing framework" and has server-side html string rendering feature built-in.
+
+Pros of this approach:
+- completely separated frontend code from cms backend
+- it is actually two separated apps now, so there is contact layer and thanks to that it is a lot harder to write heavily bounded code which is hard to refactor
+- since it is bases on svelte - frontend DX will be a lot better now
+- it is not tied to sitecore or any other cms and can be used to render html parts anywhere
+
+Cons:
+- big feature of Sitecore is Expirence Editor which is like WYSIWIG editor, but for whole website pages: will it be possibe to use "Url rendering" of sitecore with expirence editor WYSIWIG - is a big question and need to be researched
+
