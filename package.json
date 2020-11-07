@@ -57,6 +57,7 @@
     }
   },
   "dependencies": {
+    "fastify": "^3.7.0",
     "svelte": "^3.29.4"
   }
 }
