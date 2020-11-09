@@ -19,7 +19,7 @@ yarn start:prod
 Or use `npm run` instead of `yarn`
 
 Idea of this project was born from very specific situation - creating and working with view renderings in Sitecore CMS it is really painful.
-It feels like part of frontend app is taken hostage and bruttaly torturing.
+It feels like part of frontend app is taken hostage and bruttaly tortured.
 
 So idea is something like this:
 
