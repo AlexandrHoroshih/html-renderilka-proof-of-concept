@@ -4,6 +4,20 @@
 
 Developed using Node.js 14.15.0 and yarn@berry (2.2.0) as package manager
 
+Dev mode 
+```js
+yarn dev
+```
+
+Prod mode
+```js
+yarn build && yarn start
+// or
+yarn start:prod
+```
+
+Or use `npm run` instead of `yarn`
+
 Idea of this project was born from very specific situation - creating and working with view renderings in Sitecore CMS it is really painful.
 It feels like part of frontend app is taken hostage and bruttaly torturing.
 
